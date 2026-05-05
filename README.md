@@ -1,6 +1,7 @@
 ## How to Use
 
 1. Click the button below:
+
    [![Request File Download](https://img.shields.io/badge/Download%20New%20File-Submit%20Request-blue?style=for-the-badge&logo=github)](https://github.com/Delta-Kronecker/Downloader/issues/new?template=download-request.md)
 2. On the page that opens, enter the direct download link of your file in the "Add a description"
 box.
