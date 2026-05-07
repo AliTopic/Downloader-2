@@ -91,11 +91,11 @@ jobs:
 
       - name: Split large file with 7-Zip
         id: split-file
-        if: steps.download-file.outputs.size_mb > 90
+        if: steps.download-file.outputs.size_mb > 99
         env:
           FILENAME: ${{ steps.download-file.outputs.filename }}
         run: |
-          echo "File is larger than 90 MB. Splitting with 7-Zip..."
+          echo "File is larger than 99 MB. Splitting with 7-Zip..."
           
           sudo apt-get update -qq && sudo apt-get install -y -qq p7zip-full
           
